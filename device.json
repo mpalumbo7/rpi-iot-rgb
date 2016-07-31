@@ -1,0 +1,7 @@
+{
+  "region": "us-east-1",
+	"clientId": "raspberrypi",
+	"caPath": "~/.certs/root-CA.crt",
+	"certPath": "~/.certs/certificate.pem.crt",
+	"keyPath": "~/.certs/private.pem.key"
+}

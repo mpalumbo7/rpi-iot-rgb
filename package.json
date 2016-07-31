@@ -1,0 +1,22 @@
+{
+  "name": "rpi-iot-rgb",
+  "version": "1.0.0",
+  "description": "A raspberry pi project using Node.js and AWS IoT hub which changes an LED color based on the device shadow state",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewok2030/rpi-iot-rgb.git"
+  },
+  "author": "Michael Palumbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewok2030/rpi-iot-rgb/issues"
+  },
+  "homepage": "https://github.com/ewok2030/rpi-iot-rgb#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.12"
+  }
+}
