@@ -31,7 +31,7 @@ From the AWS IoT home page, select the newly created thing from the list of reso
 Select 'Connect a device' to begin the process of creating a certificate. Select NodeJS as the SDK and click generate certificate and policy.
 
 ![AWS IoT thing certificate]
-(/images/generate_certificate.png)
+(/images/generate_cert.png)
 
 Download the public and private keys and the certificate. The private key and certificate must be kept secure to avoid compromising your AWS IoT service. The public key is paired to the private key and will be used by AWS to authenticate the thing.
 
