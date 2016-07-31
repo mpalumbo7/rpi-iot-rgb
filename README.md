@@ -41,11 +41,11 @@ Skip the last screen, which defines some configuration which can be used with th
 
 There should now be three resources on the AWS IoT homepage:
 
-1. a thing
-* Defines the device (e.g. raspberry pi) within AWS IoT
-2. a certificate
-* Defines an identity for AWS to authenticate with a certificate
-* Must be attached to a thing, for that thing to assume this identity
-3. a policy
-* Defines what AWS IoT operations can be performed
-* Must be attached to a certificate, for that identity to be authorized for these operations
+* a thing
+  * Defines the device (e.g. raspberry pi) within AWS IoT
+* a certificate
+  * Defines an identity for AWS to authenticate with a certificate
+  * Must be attached to a thing, for that thing to assume this identity
+* a policy
+  * Defines what AWS IoT operations can be performed
+  * Must be attached to a certificate, for that identity to be authorized for these operations
