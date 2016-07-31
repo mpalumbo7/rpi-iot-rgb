@@ -1,9 +1,15 @@
 # AWS IoT - Raspberry Pi RGB
 A Node.js project which enables a Raspberry Pi to connect to the AWS IoT service and manage a set of LEDs. Using a device shadow, the Raspberry Pi will react to state changes as communicated by the AWS IoT over MQTT (using the AWS IoT SDK) and change the active LED.
 
-# Setup 'thing' (aka device) in AWS IoT Hub
+* [Setup AWS IoT](#setup_aws)
+ * [Create a Thing](#create_thing)
+ * [Connect a Device](#connect_device)
+
+<a name="setup_aws"></a>
+# Setup 'thing' (aka device) in AWS IoT
 Before a device can connect to the AWS IoT Hub, a 'thing' must be configured and assigned a private key and certificate. This tutorial will use the AWS web console, but power users might prefer using the AWS CLI or AWS SDK.
 
+<a name="create_thing"></a>
 ## Create a Thing
 From the AWS Console, choose the region you wish to create the device in. The default region for AWS IoT is 'us-east-1' (aka N. Virginia).
 
@@ -22,6 +28,7 @@ Select 'Create a Resource' (or 'Create A Thing' if this is your first time) and 
 
 The thing will now appear in the list of resources.
 
+<a name="connect_device"></a>
 ## Connect a Device
 From the AWS IoT home page, select the newly created thing from the list of resources (or select 'View Thing' if this is your first time). A panel will appear with the thing's details.
 
