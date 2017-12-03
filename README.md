@@ -13,18 +13,15 @@ Before a device can connect to the AWS IoT Hub, a 'thing' must be configured and
 ## Create a Thing
 From the AWS Console, choose the region you wish to create the device in. The default region for AWS IoT is 'us-east-1' (aka N. Virginia).
 
-![Select AWS Region]
-(/images/select_region.png)
+![Select AWS Region](/images/select_region.png)
 
 Select the AWS IoT service from the AWS Console. If this is your first time using AWS IoT, select 'Get Started' to bypass the introduction screen.
 
-![Select of AWS IoT service]
-(/images/select_iot.png)
+![Select of AWS IoT service](/images/select_iot.png)
 
 Select 'Create a Resource' (or 'Create A Thing' if this is your first time) and give the device a unique name. Skip thing type and attributes and select 'Create'.
 
-![Create AWS IoT thing]
-(/images/create_thing.png)
+![Create AWS IoT thing](/images/create_thing.png)
 
 The thing will now appear in the list of resources.
 
@@ -32,13 +29,11 @@ The thing will now appear in the list of resources.
 ## Connect a Device
 From the AWS IoT home page, select the newly created thing from the list of resources (or select 'View Thing' if this is your first time). A panel will appear with the thing's details.
 
-![AWS IoT thing details]
-(/images/thing_details.png)
+![AWS IoT thing details](/images/thing_details.png)
 
 Select 'Connect a device' to begin the process of creating a certificate. Select NodeJS as the SDK and click generate certificate and policy.
 
-![AWS IoT thing certificate]
-(/images/generate_cert.png)
+![AWS IoT thing certificate](/images/generate_cert.png)
 
 Download the public and private keys and the certificate. The private key and certificate must be kept secure to avoid compromising your AWS IoT service. The public key is paired to the private key and will be used by AWS to authenticate the thing.
 
